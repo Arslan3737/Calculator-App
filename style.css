@@ -1,0 +1,72 @@
+.main{
+    width: 200px;
+    margin: 100px auto;
+    height: 255px;
+    background-color: #c6dde4;
+    border-radius: 5px;
+}
+
+.calc{
+    padding-top: 7px ;
+    padding-left: 15px;
+    margin-bottom: 5px;
+}
+.result{
+    width: 90%;
+    height: 45px;
+    background-image: linear-gradient(#e9f5f8, rgb(250, 249, 249));
+    background-color:#e9f5f8;
+    color: black;
+    text-align: right;
+    font-size: 20px;
+    margin: 5px 5px;
+    border-radius: 5px ;
+    border: 2px solid grey;
+}
+.clearBtn, .backspaceBtn, .bracketsBtn{
+    width: 27%;
+    margin: 4px 4px 4px 5px ;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    border: 1px solid grey;
+    height: 25px;
+}
+.backspaceBtn{
+    background-color:#daedf4;
+    color: red;
+}
+.bracketsBtn{
+    background-color:#daedf4;
+    color: black; 
+    
+}
+.btn{
+    width: 40px;
+    height: 25px;
+    font-size: 18px;
+    background-color: #daedf4;
+    margin: 3px 1px 1px 5px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.zeroBtn, .divideBtn{
+    width: 40px;
+    height: 25px;
+    background-color: #daedf4;
+    margin: 3px 1px 1px 5px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 1px solid grey;
+}
+.halfBtn{
+    background-color:green;
+    width: 92px;
+    color: white;
+    margin: 3px 2px 1px 3px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 27px;
+    font-size: 18px;
+}
